@@ -477,6 +477,47 @@ a:focus {
     }
 }
 
+.app_section2 {
+    //   background-color: #faf8f9;
+    background-color: $white;
+
+    .row {
+        align-items: center;
+    }
+
+    .detail-box {
+        color: $white;
+
+        .heading_container {
+            h2 {
+                color: $white;
+            }
+        }
+
+        .btn-box {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -5px;
+        }
+
+        a {
+            width: 175px;
+            margin: 5px;
+
+            img {
+                width: 100%;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .img-box {
+        img {
+            width: 100%;
+        }
+    }
+}
+
 // end app section
 
 // client section
@@ -710,3 +751,6 @@ a:focus {
 
 
 // end footer section
+
+//price section 
+

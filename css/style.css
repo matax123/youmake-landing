@@ -733,4 +733,19 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+
+#card-plan{
+  animation: slideInFromLeft 4s forwards;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%); /* El elemento se desplaza desde la izquierda */
+    opacity: 0; /* La opacidad es 0 al inicio de la animación */
+  }
+  to {
+    transform: translateX(0); /* El elemento se coloca en su posición original */
+    opacity: 1; /* La opacidad es 1 al final de la animación */
+  }
+}
 /*# sourceMappingURL=style.css.map */
