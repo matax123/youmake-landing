@@ -735,7 +735,7 @@ a:focus {
 }
 
 #card-plan{
-  animation: slideInFromLeft 4s forwards;
+  animation: slideInFromLeft 1s forwards;
 }
 
 @keyframes slideInFromLeft {
