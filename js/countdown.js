@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const secondsDisplay = document.getElementById('seconds');
   
     // Define la fecha límite (año, mes (0-11), día, hora, minutos, segundos)
-    const endDate = new Date(2023, 7, 31, 12, 0, 0);
+    const endDate = new Date(2023, 9, 29, 12, 0, 0);
   
     updateCounter(endDate,daysDisplay,hoursDisplay,minutesDisplay,secondsDisplay);
     setInterval(() => updateCounter(endDate,daysDisplay,hoursDisplay,minutesDisplay,secondsDisplay), 1000);
