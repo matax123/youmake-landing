@@ -50,6 +50,7 @@
     gtag('config', 'G-3H41EFXXVE');
   </script>
   <script src="js/animation.js"></script>
+  <script src="js/countdown.js"></script>
 </head>
 
 <body class="preload" style="position: relative; overflow-x: hidden;" data-spy="#scroll" data-target="#nav"
@@ -386,11 +387,20 @@
     <section id="proyectos" class="layout_padding wow animate__animated animate__bounceIn">
       <div class="container">
         <div class="heading_container text-center">
-          <h2>
-            Tiempo de espera 
-          </h2>
+          <h1 class="fw-bold my-2">
+            Lanzamiento Oficial
+          </h1>
+          <div class="container">
+            <div class="row count-display my-4">
+                <div class="col-3"><span class="fw-bold" id="days">00</span> Días</div>
+                <div class="col-3"><span class="fw-bold" id="hours">00</span> Horas </div>
+                <div class="col-3"><span class="fw-bold" id="minutes">00</span> Minutos </div>
+                <div class="col-3"><span class="fw-bold" id="seconds">00</span> Segundos </div>
+            </div>
+        </div>
         </div>
         <hr>
+        <!--
         <div id="carouselExampleFade" class="carousel slide carousel-fade shadow" data-ride="carousel"
           data-interval="5000" data-pause="false">
           <div class="carousel-inner">
@@ -408,6 +418,7 @@
             </div>
           </div>
         </div>
+        -->
       </div>
     </section>
 
